@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+:root {
+  --background-color: rgb(2, 6, 13);
+  --background-color-dark: rgb(49, 96, 166);
+  --primary-text-color: rgb(148, 102, 234);
+  --secondary-text-color: rgb(38, 174, 28);
+  --img-background-color: rgba(23, 23, 23, 0.509);
+  --navbar-text-color: rgb(190, 190, 190);
+  --navbar-text-color-dark: rgb(130, 130, 130);
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  margin: 0;
+  padding: 9;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
