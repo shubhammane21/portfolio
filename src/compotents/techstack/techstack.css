@@ -1,0 +1,144 @@
+.techstack-page {
+    padding: 30px 180px;
+    width: 100vw;
+    height: 92vh;
+    background: var(--background-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .techstack-page-title {
+    color: var(--primary-text-color);
+    font-size: 3.5rem;
+  }
+  
+  .line-break-details {
+    margin: 20px 0 30px 0;
+    background: var(--primary-text-color);
+    height: 2px;
+    width: 75vw;
+  }
+  
+  .tech-stack-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-row-gap: 1rem;
+    justify-content: space-around;
+  }
+  
+  .stack {
+    background: var(--img-background-color);
+    width: 300px;
+    height: auto;
+    padding: 15px 30px;
+    border-radius: 20px;
+  }
+  
+  .tech-heading {
+    color: var(--primary-text-color);
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .tech-heading-logo {
+    margin-right: 12px;
+  }
+  
+  .technology {
+    color: var(--secondary-text-color);
+    font-size: 24px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .technology-list {
+    padding-left: 0px;
+  }
+  
+  .technology div {
+    margin-right: 1.1rem;
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    .techstack-page {
+      padding: 30px 80px;
+    }
+  }
+  
+  @media only screen and (max-width: 1107px) {
+    .techstack-page {
+      padding: 30px 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 855px) {
+    .techstack-page {
+      padding: 30px 100px;
+      height: auto;
+    }
+  
+    .techstack-page-title {
+      font-size: 3rem;
+    }
+  
+    .tech-stack-container {
+      grid-template-columns: repeat(2, auto);
+    }
+  
+    .stack {
+      width: 240px;
+    }
+  
+    .tech-heading {
+      font-size: 26px;
+    }
+  
+    .technology {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 772px) {
+    .techstack-page {
+      padding: 30px 60px;
+    }
+  
+    .tech-stack-container {
+      grid-template-columns: repeat(2, auto);
+    }
+  
+    .tech-heading {
+      font-size: 26px;
+    }
+  
+    .stack {
+      width: 260px;
+    }
+  }
+  
+  @media only screen and (max-width: 624px) {
+    .techstack-page {
+      padding: 30px 30px;
+    }
+  
+    .techstack-page-title {
+      font-size: 2.2rem;
+    }
+  
+    .tech-stack-container {
+      grid-template-columns: repeat(1, auto);
+    }
+  
+    .technology {
+      font-size: 20px;
+    }
+  }
+  
