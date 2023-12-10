@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Home from './compotents/home/home'
 import Navbar from './compotents/navbar/navbar';
