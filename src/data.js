@@ -1,3 +1,4 @@
+import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 import * as AiIcons from "react-icons/ai";
@@ -41,15 +42,15 @@ export const projectsData = [
     id: 1,
     name: "Portfolio",
     description:
-      "Responsive portfolio design with ReactJS. Used react hooks, props, react-router, react-icons, react-scroll and CSS.",
-    sourceCodeUrl: "https://github.com/",
+      "Built an engaging and responsive personal portfolio website using React, enhanced with the functionality of `react-scroll` and aesthetic appeal of `react-icons`.",
+    sourceCodeUrl: "https://github.com/shubhammane21/portfolio",
   },
   {
     id: 2,
-    name: "Pacman",
+    name: "Shopper",
     description:
-      "Complete clone of Pacman game with implementaion of artificial intelligence for ghosts to chase down pacman.",
-    sourceCodeUrl: "https://github.com/",
+      "Complete Shppper site desgined with HTML5 ,CSS, Bootstrap",
+    sourceCodeUrl: "https://github.com/shubhammane21/Shopper",
   },
   {
     id: 3,
@@ -60,23 +61,23 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "A* Search Algorithm",
+    name: "HotelBooking",
     description:
-      "Visualization of A* search algorithm. Using p5 a JavaScript library for visual graphics",
+      "",
     sourceCodeUrl: "https://github.com",
   },
   {
     id: 5,
-    name: "Prize Bond Searcher",
+    name: "Weather app",
     description:
-      "A prize bond searcher. Used Java File.io to look for prize bond numbers present in one file and compare it with other. File can be fed with garbage data, as long as there are actual bond number in file it will work!",
-    sourceCodeUrl: "https://github.com/",
+      "Built a simple weather application using React that allows users to check the current weather conditions for a specific location.fetching weather data from an API, and displaying it in a user-friendly interface",
+    sourceCodeUrl: "https://github.com/shubhammane21/WeatherApp",
   },
   {
     id: 6,
-    name: "2D Flappy Bird",
+    name: "AniamationWebApp",
     description:
-      "I made a flappy bird game using Pygame library in Python. Learned to implement the game mechanics i.e. vertical movement of bird, jump of bird, movement of pipes etc",
+      "",
     sourceCodeUrl: "https://github.com/",
   },
 ];
@@ -84,25 +85,25 @@ export const projectsData = [
 export const socialMediaLinks = [
   {
     id: 1,
-    url: "https://www.youtube.com",
-    cName: "icon youtube-icon",
-    logo: <FaIcons.FaYoutube />,
+    url: "https://twitter.com/shubham_mane_21",
+    cName: "icon twitter-icon",
+    logo: <FaIcons.FaTwitter />,
   },
   {
     id: 2,
-    url: "https://github.com",
+    url: "https://github.com/shubhammane21",
     cName: "icon github-icon",
     logo: <FaIcons.FaGithub />,
   },
   {
     id: 3,
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/shubhammane21",
     cName: "icon linkedin-icon",
     logo: <FaIcons.FaLinkedin />,
   },
   {
     id: 4,
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/ms21_cs",
     cName: "icon instagram-icon",
     logo: <FaIcons.FaInstagram />,
   },
@@ -117,21 +118,21 @@ export const techStack = [
     technologies: [
       {
         id: 2,
-        name: "JavaScript",
+        name: "JavaScript ES6",
         cName: "technology",
         logo: <SiIcons.SiJavascript />,
       },
       {
-        id: 1,
-        name: "Java",
+        id: 4,
+        name: "CSS3",
         cName: "technology",
-        logo: <SiIcons.SiJavascript />,
+        logo: <SiIcons.SiCss3/>,
       },
       {
         id: 3,
-        name: "Solidity",
+        name: "HTML5",
         cName: "technology",
-        logo: <SiIcons.SiSolidity />,
+        logo: <SiIcons.SiHtml5 />,
       },
     ],
   },
@@ -206,6 +207,13 @@ export const techStack = [
         cName: "technology",
         logo: <FaIcons.FaGithub />,
       },
+      {
+        id:3,
+        name:"VScode",
+        cName:"technology",
+        logo:<FaIcons.FaCode/>
+
+      }
     ],
   },
 ];

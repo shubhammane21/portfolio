@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 100%;
   }
   
   .contact-form-title {
@@ -100,6 +100,7 @@
   
   .icon:hover {
     color: var(--secondary-text-color);
+    transform: scale(1.2);
   }
   
   .social-media-section-heading {
@@ -112,6 +113,13 @@
     text-decoration: underline;
     font-size: 2rem;
     cursor: pointer;
+  }
+  .social-media-section h3:hover{
+    transform: scale(1.05);
+  }
+  .errormsg{
+   color: rgb(224, 214, 214);
+   font-family:Arial, Helvetica, sans-serif;
   }
   
   @media only screen and (max-width: 1250px) {
@@ -180,7 +188,6 @@
       font-size: 1.5rem;
       cursor: pointer;
     }
-  
     .icon {
       font-size: 40px;
     }
